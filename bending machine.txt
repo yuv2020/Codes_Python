@@ -1,0 +1,32 @@
+av=int(input("how many candies you have?"))
+x=int(input("How many candies you want:"))
+i=1
+while i<=x:
+    if i>av:
+        print("Out of stock")
+        break
+    print("Candy")
+    i+=1
+    
+print("VISIT AGAIN ")
+
+#Program to print the value of 1 to n which are divisible by 3 and 5.
+n=int(input("Enter how many number you want to display: "))
+for i in range(0,n):
+    if i%3==0 & i%5==0:
+        continue
+    print(i)
+    
+print('bye')
+
+print()
+
+#Program to print the value which are not odd.
+n=int(input("Enter the numbers to be checked which are not odd: "))
+for i in range(0,n):
+    if i%2!=0:
+        pass
+    else:
+        print(i)
+        
+print("bye")
